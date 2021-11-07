@@ -3,6 +3,7 @@
 
 const CACHE_NAME = 'lab-7-starter';
 var urlsToCache = [
+  'https://karinasanchez04.github.io/',
   '/index.html',
   '/#ghostCookies',
   '/#birthdayCake',
