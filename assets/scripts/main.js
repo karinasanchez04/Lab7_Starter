@@ -99,7 +99,7 @@ function createRecipeCards() {
   // Inputs the data for the card. This is just the first recipe in the recipes array,
   // being used as the key for the recipeData object
     recipeCard.data = recipeData[recipes[i]];
-    console.log(recipeCard);
+   // console.log(recipeCard);
   // This gets the page name of each of the arrays - which is basically
   // just the filename minus the .json. Since this is the first element
   // in our recipes array, the ghostCookies URL, we will receive the .json
