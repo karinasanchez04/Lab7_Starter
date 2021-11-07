@@ -5,6 +5,7 @@ const CACHE_NAME = 'lab-7-starter';
 var urlsToCache = [
   'https://karinasanchez04.github.io/Lab7_Starter/',
   '/index.html',
+  '/Lab7_Starter',
   '/#ghostCookies',
   '/#birthdayCake',
   '/#chocolateChip',
@@ -13,7 +14,7 @@ var urlsToCache = [
 ];
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js',{scope: '/Lab_7_Starter/'}).then(function(registration) {
+    navigator.serviceWorker.register('/sw.js',{scope: '/Lab7_Starter/'}).then(function(registration) {
       // Registration was successful
       console.log('ServiceWorker registration successful with scope: ', registration.scope);
     }, function(err) {
