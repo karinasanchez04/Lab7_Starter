@@ -3,13 +3,15 @@
 
 const CACHE_NAME = 'lab-7-starter';
 var urlsToCache = [
-  '/#ghostCookies',
-  '/#birthdayCake',
-  '/#chocolateChip',
-  '/#stuffing',
-  '/#turkey',
-  '/#pumpkinPie'
-
+  'Lab7_Starter',
+  '#ghostCookies',
+  '#birthdayCake',
+  '#chocolateChip',
+  '#turkey',
+  '#stuffing',
+  '#pumpkinPie',
+  'assets/images/icons/arrow-down.png',
+  'assets/images/icons/5-star.svg'
 ];
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
