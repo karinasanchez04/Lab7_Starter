@@ -7,8 +7,8 @@ var urlsToCache = [
   '/#birthdayCake',
   '/#chocolateChip',
   '/#stuffing',
-  '#turkey',
-  '#pumpkinPie'
+  '/#turkey',
+  '/#pumpkinPie'
 
 ];
 if ('serviceWorker' in navigator) {
